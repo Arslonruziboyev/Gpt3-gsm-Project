@@ -5,3 +5,19 @@
 
     padding: 2rem 6rem;
 }
+
+.gpt3_navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gpt3_navbar_links-logo{
+    margin-right: 2rem;
+}
+
+.gpt3_navbar_links-logo img{
+    width: 62px;
+    height: 16px;
+}
