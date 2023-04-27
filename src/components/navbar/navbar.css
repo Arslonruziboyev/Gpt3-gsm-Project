@@ -39,4 +39,12 @@
 .gpt3_navbar_menu_container p{
     color: #fff;
     font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 18px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+
+    cursor: pointer;
 }
