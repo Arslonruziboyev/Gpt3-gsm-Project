@@ -21,3 +21,19 @@
     width: 62px;
     height: 16px;
 }
+
+.gpt3_navbar_links_container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.gpt3_navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gpt3_navbar_links_container p{
+    
+}
