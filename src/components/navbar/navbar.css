@@ -96,6 +96,7 @@
 }
 .gpt3__navbar-menu_container-links-sign{
     display: none;
+    
 }
 
 @media screen and (max-width: 1050px) {
@@ -105,6 +106,32 @@
 
     .gpt3_navbar-menu{
         display: flex;
+        color: #fff;
     }
+}
+@media screen and (max-width: 700px) {
+    .gpt3_navbar{
+      padding: 2rem 4rem;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3_navbar{
+      padding: 2rem;
+    }
+    .gpt3_navbar-sign{
+        display: none;
+    }
+
+    .gpt3__navbar-menu_container{
+        top: 20px;
+    }
+    .gpt3__navbar-menu_container-links-sign{
+        display: block;
+    }
+
+
+
 }
 
