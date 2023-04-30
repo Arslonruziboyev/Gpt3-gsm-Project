@@ -3,8 +3,10 @@ import './header.css'
 
 const Header = () => {
   return (
-    <div>
-      <h1>Header</h1>
+    <div className='gpt3_header section_padding' id='home'>
+      <div className='gpt3_header-content'>
+        <h1 className='gradient-text'>Let&apos;s Build Something amazing with GPT-3 OpenAI</h1>
+      </div>
     </div>
   )
 }
