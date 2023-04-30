@@ -64,3 +64,10 @@
     cursor: pointer;
 
 }
+
+.gpt3_navbar-menu{
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
