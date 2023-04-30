@@ -3,7 +3,7 @@ import { RiMenu3Line, RiCloseLin, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
 import logo from "../../assets/logo.svg";
 
-const Menu = () => {
+const Menu = () => (
   <>
     <p>
       <a href="#home">Home</a>
@@ -20,8 +20,8 @@ const Menu = () => {
     <p>
       <a href="#blog">Library</a>
     </p>
-  </>;
-};
+  </>
+)
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
