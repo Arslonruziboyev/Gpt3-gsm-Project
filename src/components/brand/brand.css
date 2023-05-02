@@ -18,3 +18,10 @@
 .gpt3__brand div img {
   margin: 1rem;
 }
+
+@media screen and (max-width: 660px) {
+  .gpt3__brand div {
+    display: flex;
+    flex-direction: column;
+  }
+}
