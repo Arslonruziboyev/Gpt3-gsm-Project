@@ -54,3 +54,16 @@
 .gpt3__whatgpt3-feature .gpt3__features-container__feature {
   margin: 0;
 }
+
+.gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+  max-width: 700px;
+}
+
+.gpt3__whatgpt3-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 4rem 0 2rem;
+}
