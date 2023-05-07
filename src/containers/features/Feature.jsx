@@ -1,6 +1,7 @@
 import React from "react";
-import "./features.css";
 import Feature from "../../components/feature/Feature";
+import "./features.css";
+
 const featuresData = [
   {
     title: "Improving end distrusts instantly",
@@ -19,6 +20,7 @@ const featuresData = [
     text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..",
   },
 ];
+
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
@@ -29,13 +31,9 @@ const Features = () => (
       <p>Request Early Access to Get Started</p>
     </div>
     <div className="gpt3__features-container">
-      {featuresData.map((item, index) => {
-        <Feature
-          title={item.title}
-          text={item.text}
-          key={item.title + index}
-        />;
-      })}
+      {featuresData.map((item, index) => (
+        <Feature title={item.title} text={item.text} key={item.title + index} />
+      ))}
     </div>
   </div>
 );
